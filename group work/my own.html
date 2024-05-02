@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adventure Game</title>
+    </head>
+    <body background="c:\Users\Godgift\Desktop\my work\img\pi.jpg">
+        <h1>Adventure Game</h1>
+        <p style="color: white;"><b>Welcome to the Adventure Game! choose your path:
+       </b> </p>
+        <p><a href="Ultimate price game.html" style="color: rgb(87, 183, 162);">Path 1</a></p>
+        <p><a href="#path2" style="color: aquamarine;">Path 2</a></p>
+        <di id="path1" style="display: none;">
+            <p>you choose path 1. you find a treasure chest!</p>
+            <p><a href="#gameover">Game Over</a></p>
+        </di>
+        <di id="path2" style="display: none;">
+            <p>you choose path 2. you encounter a dragon!</p>
+            <p><a href="#gameover">Game Over</a></p>
+        </di>
+        <di id="gameover" style="display: none;">
+            <p>Game Over. Play again?</p>
+            <p><a href="#restart">Restart</a></p>
+        </di>
+        <script>
+            document.querySelectorAll('a').forEach(link =>{
+                link.addEventListener('click', function(e){
+                    e.preventDefault();
+                    document.querySelectorAll
+                }
+            })
+        </script>
+    </body>
+</html>
